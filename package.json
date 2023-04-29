@@ -1,0 +1,19 @@
+{
+  "name": "LINE-internal-URL",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "authors": {
+    "name": "",
+    "email": ""
+  },
+  "repository": "/LINE-internal-URL",
+  "scripts": {
+    "dev": "NODE_OPTIONS='--openssl-legacy-provider' vuepress dev src",
+    "build": "NODE_OPTIONS='--openssl-legacy-provider' vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
