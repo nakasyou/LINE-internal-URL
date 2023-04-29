@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress Docs Boilerplate',
+  title: 'LINE-internal-URL project',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -34,29 +34,16 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: 'Guide',
-        link: '/guide/',
+        text: 'Introduction',
+        link: '/introduction/',
       },
       {
-        text: 'Config',
-        link: '/config/'
+        text: 'GitHub',
+        link: 'https://github.com/nakasyou/LINE-internal-URL',
       },
-      {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
-      }
     ],
     sidebar: {
-      '/guide/': [
-        {
-          title: 'Guide',
-          collapsable: false,
-          children: [
-            '',
-            'using-vue',
-          ]
-        }
-      ],
+
     }
   },
 
