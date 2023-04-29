@@ -7,13 +7,13 @@
     "name": "",
     "email": ""
   },
-  "repository": "/LINE-internal-URL",
+  "repository": "https://github.com/nakasyou/LINE-internal-URL",
   "scripts": {
-    "dev": "NODE_OPTIONS='--openssl-legacy-provider' vuepress dev src",
-    "build": "NODE_OPTIONS='--openssl-legacy-provider' vuepress build src"
+    "dev": "NODE_OPTIONS='--openssl-legacy-provider' vitepress dev src",
+    "build": "NODE_OPTIONS='--openssl-legacy-provider' vitepress build src"
   },
   "license": "MIT",
-  "devDependencies": {
-    "vuepress": "^1.5.3"
+  "dependencies": {
+    "vitepress": "^1.0.0-alpha.74"
   }
 }
